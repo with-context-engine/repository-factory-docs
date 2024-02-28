@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2cb20c2a30b6e469",
+        "id": "cf68ce961102ec99",
         "type": "tabs",
         "children": [
           {
-            "id": "4c9a5af65980a050",
+            "id": "a3a24f4d61aecc08",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c9a5af65980a050",
+  "active": "a3a24f4d61aecc08",
   "lastOpenFiles": [
     "Test Space/Testing Images.md",
     "index.md",
