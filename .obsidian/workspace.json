@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9e0384fc265080f0",
+        "id": "2cb20c2a30b6e469",
         "type": "tabs",
         "children": [
           {
-            "id": "6937d2271816ce3d",
+            "id": "4c9a5af65980a050",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Welcome.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -142,9 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e331a424c2303115",
+  "active": "4c9a5af65980a050",
   "lastOpenFiles": [
-    "Repository Factory License.txt",
-    "Welcome.md"
+    "Test Space/Testing Images.md",
+    "index.md",
+    "Images",
+    "Images/Excalidraw-Fashion-Recommender.svg",
+    "Test Space",
+    "Welcome.md",
+    "Repository Factory License.txt"
   ]
 }
