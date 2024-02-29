@@ -13,7 +13,16 @@ date: 2024-02-29
 
 ## 🏛️ Repository *ethos*
 
-We've all been there. Running `git init` and then 🤷🏽‍♂️ immediately thereafter. Questions like 
+We've all been there. Running `git init` and then 🤷🏽‍♂️ immediately thereafter. Questions like: 
+
+1. Ok now how do I organize my python environment? 
+2. Where do I place my files so that I can train, serve, deploy, or create something with python? 
+3. Do I have the right dependencies? 
+4. What about all the `bash` customizations I should use? 
+5. Once I've got my ML code built, where do I go to train the model? 
+6. How do I integrate these deployed tools (ML model, Streamlit app, FastAPI, etc., into my DevOps's environment?)
+
+The list goes on and on. Finally, if you're interested in building actual machine learning *product prototypes*, you often wonder what's the best way to string together all these components? Well, that's the pain I've felt too. Standing on the shoulders of [giants](https://github.com/radix-ai/poetry-cookiecutter/tree/main), [like](https://stefanbuck.com/blog/codeless-contributions-with-github-issue-forms), these
 
 ### Pre-requisites
 
