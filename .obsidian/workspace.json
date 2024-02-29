@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "777dc64637d145cf",
+        "id": "297c769cb58057fb",
         "type": "tabs",
         "children": [
           {
-            "id": "087b7047c866b71f",
+            "id": "3b0a32b09de94ee9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "087b7047c866b71f",
+  "active": "3b0a32b09de94ee9",
   "lastOpenFiles": [
-    "Images/OpenAI icon.svg",
+    "Anthropic logo vector.png",
     "index.md",
+    "Images/OpenAI icon.svg",
     "Images/OpenAI icon.jpeg",
     "Images/Excalidraw-Fashion-Recommender.svg",
     "Test Space/Testing Images.md",
