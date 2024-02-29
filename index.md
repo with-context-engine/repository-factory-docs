@@ -30,7 +30,7 @@ The list goes on and on. Finally, if you're interested in building actual machin
 
 ## Solution Architecture
 
-I will be referring to this diagram frequently during the documentation of this repo. It is meant to show how all these components working together can form the basics behind a modern ML application prototype. 
+I will be referring to this diagram frequently during the documentation of this repo. It is meant to be an example of how all these components working together can form the basics behind a modern ML application prototype. 
 
 
 

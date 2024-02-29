@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1194dadb23f1c42",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "b3496939f883174b",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e331a424c2303115",
+  "active": "b3496939f883174b",
   "lastOpenFiles": [
-    "Repository Modes",
     "index.md",
+    "Repository Modes",
     "Configuration",
     "dvc.org.md",
     "Anthropic logo vector.png",
