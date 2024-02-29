@@ -21,8 +21,18 @@ We've all been there. Running `git init` and then 🤷🏽‍♂️ immediately 
 4. What about all the `bash` customizations I should use? 
 5. Once I've got my ML code built, where do I go to train the model? 
 6. How do I integrate these deployed tools (ML model, Streamlit app, FastAPI, etc., into my DevOps's environment?)
+7. Whats a really clever way to involve CI/CD in this whole process so that I don't write brittle code? 
 
-The list goes on and on. Finally, if you're interested in building actual machine learning *product prototypes*, you often wonder what's the best way to string together all these components? Well, that's the pain I've felt too. Standing on the shoulders of [giants](https://github.com/radix-ai/poetry-cookiecutter/tree/main), [like](https://stefanbuck.com/blog/codeless-contributions-with-github-issue-forms), these
+The list goes on and on. Finally, if you're interested in building actual machine learning *product prototypes*, you often wonder what's the best way to string together all these components? Well, that's the pain I've felt too. 
+
+> [!Check]
+> Standing on the shoulders of [giants](https://github.com/radix-ai/poetry-cookiecutter/tree/main), [like](https://stefanbuck.com/blog/codeless-contributions-with-github-issue-forms), [these](https://stefanbuck.com/blog/repository-templates-meets-github-actions) guys, I've built this repository and documentation site to help you write the best code that DevOps and MLOps professionals will love. 
+
+## Solution Architecture
+
+I will be referring to this diagram frequently during the documentation of this repo. It is meant to show how all these components working together can form the basics behind a modern ML application prototype. 
+
+
 
 ### Pre-requisites
 
