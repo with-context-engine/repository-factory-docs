@@ -30,10 +30,9 @@ The list goes on and on. Finally, if you're interested in building actual machin
 
 ## Solution Architecture
 
-This diagram is gonna be super helpful for documenting this repo. It shows how all the components work together to form the basics of a modern ML application prototype. Cool thing is, this repository can customize itself six different ways, resulting in a single repo that can create six different versions of itself to meet needs on both sides of the solution.️
+This diagram documents how this repository behaves. It shows how all the components work together to form the basics of a modern ML application prototype. This repository can customize itself six different ways via `Cruft` and `Cookiecutter`, resulting in a single repo that can create six different versions of itself to meet needs on both sides of the solution.️
 
-
-
+![image](https://with-context-public.s3.us-east-1.amazonaws.com/repository-factory-docs/2024/19f85a0db6da482bf704b4a0a8460c4c.png)
 ### Pre-requisites
 
 You will need an active working knowledge of `git`, AWS, [DVC](http://dvc.org), and [Serverless](https://www.serverless.com/) in order to fully leverage this resource for your own benefit. 
