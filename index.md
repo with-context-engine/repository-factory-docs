@@ -30,7 +30,7 @@ The list goes on and on. Finally, if you're interested in building actual machin
 
 ## Solution Architecture
 
-I will be referring to this diagram frequently during the documentation of this repo. It is meant to be an example of how all these components working together can form the basics behind a modern ML application prototype. This repository is able to customize itself 6 different ways, resulting in a single repo that can spawn 6 versions of itself to fulfill needs on each end of the solution. 
+This diagram is gonna be super helpful for documenting this repo. It shows how all the components work together to form the basics of a modern ML application prototype. Cool thing is, this repository can customize itself six different ways, resulting in a single repo that can create six different versions of itself to meet needs on both sides of the solution.️
 
 
 
