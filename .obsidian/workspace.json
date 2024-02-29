@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cf68ce961102ec99",
+        "id": "777dc64637d145cf",
         "type": "tabs",
         "children": [
           {
-            "id": "a3a24f4d61aecc08",
+            "id": "087b7047c866b71f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           }
         ]
@@ -138,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3a24f4d61aecc08",
+  "active": "087b7047c866b71f",
   "lastOpenFiles": [
-    "Test Space/Testing Images.md",
+    "Images/OpenAI icon.svg",
     "index.md",
-    "Images",
+    "Images/OpenAI icon.jpeg",
     "Images/Excalidraw-Fashion-Recommender.svg",
+    "Test Space/Testing Images.md",
+    "Images",
     "Test Space",
     "Welcome.md",
     "Repository Factory License.txt"
