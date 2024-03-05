@@ -10,9 +10,6 @@ tags:
 date: 2024-03-04
 ---
 
-> [!IMPORTANT]
-> You can follow the guide on Github's [page](https://docs.github.com/en/apps/creating-github-apps/writing-code-for-a-github-app/quickstart) to create your own service user / app, or, follow the simple advice below. 
-
 ## Why a Github App
 
 The `Repository Factory` Repository needs a Github app to serve as an _overlord_ of sorts to allow files to be edited, workflows to be run, etc., without the issue of the Github token provisioned in the `workflow` context to accidentally delete its own files, or run some malicious code. The Github App, therefore, has its own permission settings and scopes and can be deactivated by the user / admin at will to safely execute workflows. 
@@ -49,7 +46,13 @@ Workflows that are edited by the `workflow runner` can cause race condition issu
 
 ## Creating a Github App
 
-You can simply install the following [app](https://github.com/apps/repository-factory-worker) onto your own repository. 
+> [!IMPORTANT]
+> You can simply install the following [app](https://github.com/apps/repository-factory-worker) onto your own repository. 
+
+---
+
+> [!IMPORTANT]
+> You can follow the guide on Github's [page](https://docs.github.com/en/apps/creating-github-apps/writing-code-for-a-github-app/quickstart) to create your own service user / app, or, follow the simple advice below. 
 
 ## Credentials from Github App needed
 
@@ -64,4 +67,6 @@ This repository uses the [following](https://github.com/marketplace/actions/gith
           private_key: ${{ secrets.APP_PEM_PRIVATE_KEY}}
 ```
 
-therefore
+To retrieve the `APP_ID` and `APP_PEM_PRIVATE_KEY` follow the instructions below. 
+
+### 
