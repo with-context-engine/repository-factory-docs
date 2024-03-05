@@ -11,11 +11,10 @@
             "id": "4a7ef4ccffeea340",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "How To's/Create Github Service User (Bot).md",
-                "mode": "source",
-                "source": true
+                "file": ".obsidian/workspace.json",
+                "staged": true
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How To's/Create Github Service User (Bot).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How To's/Create Github Service User (Bot).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "How To's/Create Github Service User (Bot).md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +151,8 @@
   },
   "active": "4a7ef4ccffeea340",
   "lastOpenFiles": [
-    "How To's/Create IAM policies and roles.md",
     "How To's/Create Github Service User (Bot).md",
+    "How To's/Create IAM policies and roles.md",
     "index.md",
     "Repository Customizations/StreamLit Repository Customization.md",
     "How To's",

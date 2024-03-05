@@ -54,7 +54,7 @@ Workflows that are edited by the `workflow runner` can cause race condition issu
 > [!IMPORTANT]
 > You can follow the guide on Github's [page](https://docs.github.com/en/apps/creating-github-apps/writing-code-for-a-github-app/quickstart) to create your own service user / app, or, follow the simple advice below. 
 
-## Credentials from Github App needed
+## Github App Credentials
 
 This repository uses the [following](https://github.com/marketplace/actions/github-app-token) marketplace Github Action: 
 
@@ -69,4 +69,27 @@ This repository uses the [following](https://github.com/marketplace/actions/gith
 
 To retrieve the `APP_ID` and `APP_PEM_PRIVATE_KEY` follow the instructions below. 
 
-### 
+### Getting Github App Credentials
+
+#### `APP_ID`
+
+1. Click on the App Settings button
+
+	![image](https://with-context-public.s3.us-east-1.amazonaws.com/repository-factory-docs/2024/c6ffb436794cc5dc675d1a1ba8a9e6a1.png)
+
+2. Under **"About"**, get the `APP_ID` and store it as a variable in your organization's secrets / variables store, or in the specific repository you aim to be developing. 
+
+#### `APP_PEM_PRIVATE_KEY`
+
+1. Under **"Private Keys"** create a new `APP_PEM_PRIVATE_KEY` by downloading a key file: 
+
+	![image](https://with-context-public.s3.us-east-1.amazonaws.com/repository-factory-docs/2024/5d6a09dc2acaf483cf4e8d7898c13de4.png)
+
+2. Run: 
+   
+```bash
+pbcopy < app_private_key.pem
+```
+
+3. Paste the key into your secrets store. 
+
