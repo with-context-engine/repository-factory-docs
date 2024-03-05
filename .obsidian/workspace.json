@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c2d3a3995da2e0f2",
-        "type": "split",
+        "id": "23578bfca1725582",
+        "type": "tabs",
         "children": [
           {
-            "id": "23578bfca1725582",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4a7ef4ccffeea340",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "index.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
+            "id": "4a7ef4ccffeea340",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How To's/Create Github Service User (Bot).md",
+                "mode": "source",
+                "source": true
               }
-            ]
-          },
-          {
-            "id": "ab0edb27f0606f9c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f662153ed442afac",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "How To's/Create Github Service User (Bot).md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
-              },
-              {
-                "id": "236c6b1af20d5aff",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "How To's/Create the correct IAM policies.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,11 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f662153ed442afac",
+  "active": "4a7ef4ccffeea340",
   "lastOpenFiles": [
-    "How To's/Create the correct IAM policies.md",
-    "How To's/Create Github Service User (Bot).md",
+    "How To's/Create the needed IAM policies.md",
     "index.md",
+    "How To's/Create Github Service User (Bot).md",
     "Repository Customizations/StreamLit Repository Customization.md",
     "How To's",
     "Repository Customizations/Streamlit",
