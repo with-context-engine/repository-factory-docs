@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "23578bfca1725582",
+        "id": "8c302dd4403bfb38",
         "type": "tabs",
         "children": [
           {
-            "id": "4a7ef4ccffeea340",
+            "id": "a9a151ff956cadad",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -149,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a7ef4ccffeea340",
+  "active": "a9a151ff956cadad",
   "lastOpenFiles": [
     "How To's/Create Github Service User (Bot).md",
     "How To's/Create IAM policies and roles.md",
