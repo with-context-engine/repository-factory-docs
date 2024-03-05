@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md.md"
+                "file": "README.md"
               }
             }
           },
@@ -154,10 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1daff9b7ccaf27ef",
+  "active": "fb84a92dbc80d3b3",
   "lastOpenFiles": [
     "index.md",
-    "README.md.md",
+    "README.md",
     "How To's/Create Github Service User (Bot).md",
     "How To's/Create IAM policies and roles.md",
     "Repository Customizations/StreamLit Repository Customization.md",
