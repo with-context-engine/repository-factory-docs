@@ -4,22 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "23578bfca1725582",
-        "type": "tabs",
+        "id": "c2d3a3995da2e0f2",
+        "type": "split",
         "children": [
           {
-            "id": "4a7ef4ccffeea340",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+            "id": "23578bfca1725582",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4a7ef4ccffeea340",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "index.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "ab0edb27f0606f9c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f662153ed442afac",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "How To's/Create Github Service User (Bot).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "236c6b1af20d5aff",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "How To's/Create the correct IAM policies.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 385.5
   },
   "right": {
     "id": "834b140ef4efc5a8",
@@ -85,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "How To's/Create the correct IAM policies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "How To's/Create the correct IAM policies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +163,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "How To's/Create the correct IAM policies.md"
               }
             }
+          },
+          {
+            "id": "fb84a92dbc80d3b3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -146,9 +193,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a7ef4ccffeea340",
+  "active": "236c6b1af20d5aff",
   "lastOpenFiles": [
+    "How To's/Create Github Service User (Bot).md",
+    "How To's/Create the correct IAM policies.md",
     "index.md",
+    "Repository Customizations/StreamLit Repository Customization.md",
+    "How To's",
+    "Repository Customizations/Streamlit",
+    "Repository Customizations",
     "Repository Modes",
     "Configuration",
     "dvc.org.md",
