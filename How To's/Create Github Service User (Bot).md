@@ -53,4 +53,15 @@ You can simply install the following [app](https://github.com/apps/repository-fa
 
 ## Credentials from Github App needed
 
+This repository uses the [following](https://github.com/marketplace/actions/github-app-token) marketplace Github Action: 
 
+```yaml
+      - name: Generate App Token
+        uses: tibdex/github-app-token@v2
+        id: token
+        with:
+          app_id: ${{ vars.APP_ID}}
+          private_key: ${{ secrets.APP_PEM_PRIVATE_KEY}}
+```
+
+therefore
