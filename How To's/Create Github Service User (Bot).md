@@ -23,6 +23,8 @@ In the case of the `Repository Factory` we are using it to call a few API's and 
 
 #### Call the Github API
 
+In the example below, the Github service app is using its generated `$APP_TOKEN` to perform a REST API call against the `GET /repos/` API endpoint. 
+
 ```bash
         run: |
           RESPONSE=$(curl -L --silent \
@@ -32,9 +34,23 @@ In the case of the `Repository Factory` we are using it to call a few API's and 
           https://api.github.com/repos/$GITHUB_REPOSITORY )
 ```
 
-#### Send a CML Runner a Job
+#### Use a Github app token to ensure idempotency in Github Workflow
+
+Workflows that are edited by the `workflow runner` can cause race condition issues and security issues. As a result, any time a workflow is edited it needs to be done by a third party token. 
+
+```yml
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          path: template-repository
+          token: ${{ steps.token.outputs.token }}
+```
 
 
+## Creating a Github App
+
+You can simply install the following [app](https://github.com/apps/repository-factory-worker) onto your own repository. 
+
+## Credentials from Github App needed
 
 
-https://github.com/apps/repository-factory-worker
