@@ -29,7 +29,9 @@ The list goes on and on. Finally, if you're interested in building actual machin
 
 ## Solution Architecture
 
-This diagram documents how this repository behaves. It shows how all the components work together to form the basics of a modern ML application prototype. This repository can customize itself six different ways via `Cruft` and `Cookiecutter`, resulting in a single repo that can create six different versions of itself to meet needs on both sides of the solution.️
+This diagram documents how this repository behaves. It shows how all the components work together to form the basics of a modern ML application prototype. This repository can customize itself six different ways via `Cruft` and `Cookiecutter`. This means that this is a single repo that can create six different versions of itself to meet the needs of the developer.️ 
+
+An example of how each customization might fit into a modern ML application like a chatbot deployed on Streamlit and backended by a trained chat model on Sagemaker is described below in the diagram. I will be referring to this diagram in each of the repository modes to denote how to customize it appropriately. 
 
 ![image](https://with-context-public.s3.us-east-1.amazonaws.com/repository-factory-docs/2024/19f85a0db6da482bf704b4a0a8460c4c.png)
 ### Pre-requisites
